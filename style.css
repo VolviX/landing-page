@@ -3,7 +3,7 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
-    background-color: orange;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
 }
@@ -142,6 +142,35 @@ button {
     justify-content: center;
     align-items: center;
     gap: 48px;
+}
+
+.fourBox {
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+}
+
+.fourTitle {
+    font-size: 22px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.fourDescription {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.fourButton {
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
 }
 
 .footer {
