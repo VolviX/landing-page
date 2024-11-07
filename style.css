@@ -41,7 +41,13 @@ body {
     gap: 12px;
 }
 
-.oneDescription {
+.oneTitle {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.oneDescription, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -56,10 +62,66 @@ button {
     font-weight: bold;
 }
 
-.oneTitle {
-    font-size: 48px;
-    color: #F9FAF8;
+.two {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    color: #8b8b8c;
+}
+
+.twoTitle {
+    font-size: 36px;
+    color: #1F2937;
     font-weight: 900;
+    background-color: orange;
+}
+
+.twoSquares {
+    background-color: purple;
+    display: flex;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.squareText {
+    max-width: 125px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.four {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0px;
+    height: 65px;
 }
 
 img {
