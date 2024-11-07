@@ -108,9 +108,31 @@ button {
     background-color: #E5E7EB;
     height: 450px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 28px;
+}
+
+.threeContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    max-width: 800px;
+}
+
+.credit {
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .four {
