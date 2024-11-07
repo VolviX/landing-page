@@ -77,7 +77,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    background-color: orange;
+    background-color: orange; /* testing */
 }
 
 .twoSquares {
