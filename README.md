@@ -1,4 +1,4 @@
-# landing page
+# Landing Page
 
 A simple landing page that is made with css flexbox.
 
